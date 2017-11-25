@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">MrSafer</string>
+
+    <!-- Welcome Screen String Refrences -->
+
+    <string name="together_safer">TOGETHER, SAFER</string>
+    <string name="facebook_login">Login with Facebook</string>
+    <string name="twitter_login">Login with Twitter</string>
+    <string name="login_aggrement">BY CONTINUING, YOU AGREE TO\n OUR TERMS AND CONDITIONS</string>
+    <string name="dialog_title">Use Internet Connection</string>
+    <string name="dialog_message">It seems that you are not connected to Internet.Please connect your app to Internet.</string>
+    <string name="setting_dialog_title">Use Location Services</string>
+    <string name="setting_dialog_message">Mr. SAFER would like to access your location.</string>
+    <string name="image_picker_title">Pick Image From </string>
+    <string name="video_picker_title">Pick Video From </string>
+
+    <!-- Landing Screen String Refrences -->
+    <string name="tab_position_title">POSITION</string>
+    <string name="tab_alert_title">REPORT</string>
+    <string name="tab_reports_title">ALERTS</string>
+    <string name="tab_actus_title">NEWS</string>
+
+    <!-- TODO:Capture Incident Screen -->
+    <string name="report_id_type">REPORT AN ALTERCATION</string>
+    <string name="send">SEND</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+
+    <!-- TODO:FETCH INTENT ADDRESS -->
+    <string name="no_geocoder_available">No geocoder available</string>
+    <string name="fetch_address">Fetch address</string>
+    <string name="address_found">Address found</string>
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+
+    <string name="error_field_required">write minimum 20 characters</string>
+
+    <!-- TODO:ALERT SCREEN -->
+    <string name="confirmation_title">EMERGENCY</string>
+    <string name="confirmation_police">Confirm the call to the Police?</string>
+    <string name="confirmation_fire_department">Confirm the call to the Fire Department?</string>
+    <string name="confirmation_ambulance">Confirm the call to the Ambulance?</string>
+    <string name="permission_phone">Call permission are required for this app.</string>
+
+    <!-- TODO:INCIDENT NAME -->
+    <string name="altercation">ALTERCATION</string>
+    <string name="offence">OFFENCE</string>
+    <string name="harassment">HARASSMENT</string>
+    <string name="doubt">DOUBT</string>
+    <string name="incident">INCIDENT</string>
+    <string name="others">OTHERS</string>
+
+    <item name="TAG_KEY_CLICK_EVENT" type="id" />
+
+
+    <string name="report_in_your_area">report in your area</string>
+    <!--Fragment Alerts String-->
+    <string name="raise_alert">raise an alert</string>
+    <string name="ambulance">AMBULANCE</string>
+    <string name="fire_department">FIRE DEPARTMENT</string>
+    <string name="police">POLICE</string>
+    <!--Fragment capture Incedent Strings-->
+    <string name="victim">VICTIM</string>
+    <string name="witness">WITNESS</string>
+    <string name="provide_clearification">provide clearification</string>
+    <string name="character_remaining">character remaining</string>
+    <!--Fragment Detail Strings-->
+
+    <string name="report_by_victim">REPORT BY VICTIM</string>
+    <string name="report_by_witness">REPORT BY WITNESS</string>
+    <string name="degration">degration</string>
+
+
+    <string name="argument">ARGUMENT</string>
+    <string name="weapons">WEAPONS</string>
+    <string name="fight">FIGHT</string>
+    <string name="degradation">DEGRADATION</string>
+    <string name="theft">THEFT</string>
+    <string name="burglary">BURGLARY</string>
+    <string name="verbel_abuse">VERBAL ABUSE</string>
+    <string name="fondling">FONDLING</string>
+    <string name="rape">RAPE</string>
+    <string name="suspicious">SUSPICIOUS</string>
+    <string name="shady">SHADY</string>
+    <string name="missing">MISSING</string>
+    <string name="malaise">MALAISE</string>
+    <string name="accident">ACCIDENT</string>
+    <string name="fire">FIRE</string>
+
+    <string name="doubtful_item">doubtful item</string>
+    <string name="disappearance">disappearance</string>
+
+
+    <string name="occurance">OCCURENCE</string>
+    <string name="sexual_touching">sexual touching</string>
+
+
+    <string name="report_an_altercation">REPORT AN ALTERCATION</string>
+    <string name="report_an_offence">REPORT AN OFFENCE</string>
+    <string name="report_an_harashment">REPORT AN HARASSMENT</string>
+    <string name="report_an_doubt">REPORT AN DOUBT</string>
+    <string name="report_an_incident">REPORT AN INCIDENT</string>
+    <string name="report_an_occurrence">REPORT AN OCCURRENCE</string>
+
+
+    <string name="report_an_situation">REPORT AN SITUATION</string>
+
+    <string name="miles_from_here">miles from here</string>
+    <string name="kms_from_here">kms from here</string>
+
+    <string name="ok">OK</string>
+    <string name="agree">AGREE</string>
+    <string name="disagree">DISAGREE</string>
+
+    <string name="error">ERROR</string>
+    <string name="camera_denied">Unable to access camera features</string>
+    <string name="message">MESSAGE</string>
+    <string name="data_successful">Data posted successfully</string>
+
+    <string name="report_abuse">Report Abuse</string>
+
+    <string name="email_subject">Reported abuse</string>
+
+    <string name="raise_an_alert">RAISE AN ALERT</string>
+    <string name="required_permission">Go to settings and enable permissions</string>
+    <string name="read_write">Camera and external storage read write permission are required for the app</string>
+    <string name="report_abuse_message">A message has been send to admin.</string>
+    <string name="choose_betwwen_three_icon">Choose between the 3 icons</string>
+
+    <!--TODO:Fragement Actus-->
+    <string name="actus_title">NEWS FEED</string>
+
+    <string name="spinner_prompt">Choose Type</string>
+
+    <string-array name="spinner_arrays">
+        <item>Choose Type</item>
+        <item>Expert</item>
+        <item>User</item>
+    </string-array>
+
+    <string name="ub_email">Email</string>
+    <string name="ub_pwd">Password</string>
+    <string name="ub_confirm_pwd">Confirm Password</string>
+
+    <string name="ub_reg_desc">En continuant, vous acceptez nos conditions d\'utilisation et notre politique de confidentialité</string>
+
+    <string name="ub_register">Register</string>
+
+</resources>

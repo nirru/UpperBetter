@@ -1,0 +1,209 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oxilo.mrsafer.fragement.DetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/title"
+        style="@style/CodeFont.Blue.Medium"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:background="@color/send_btn_color"
+        android:padding="@dimen/padding_15"
+        android:textAllCaps="true"
+        android:text="REPORT BY A WITNESS"/>
+
+    <RelativeLayout
+        android:id="@+id/relative_first_child"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="@dimen/margin_15"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/padding_5">
+
+        <ImageView
+            android:id="@+id/report_capture_img_id"
+            android:layout_width="@dimen/event_icon_width_capture_screen"
+            android:layout_height="@dimen/event_icon_width_capture_screen"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/arguement"/>
+
+        <TextView
+            android:id="@+id/report_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Degration"
+            android:paddingLeft="10dp"
+            android:textSize="13sp"
+            android:textColor="@color/selected_text_color"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/report_capture_img_id"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_second_child"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@+id/relative_first_child"
+        android:layout_marginTop="@dimen/margin_15"
+        android:layout_marginLeft="@dimen/margin_15"
+        android:layout_marginRight="@dimen/margin_15">
+
+        <TextView
+            android:id="@+id/address_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="addressdsdsdsdsdcdsdssdsds"
+            android:textColor="@color/selected_text_color"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/incident_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="29 min ago"
+            android:textSize="13sp"
+            android:textColor="@color/selected_text_color"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/incident_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="13sp"
+            android:text="150 miles from here"
+            android:textColor="@color/selected_text_color"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="lndcvldvcndvcdc"
+        android:inputType="textMultiLine"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relative_second_child"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@color/detail_backgroud_color"
+        android:textColor="@color/selected_text_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margin_10"
+        android:orientation="horizontal"
+        android:layout_below="@+id/desc">
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="35dp"
+            android:layout_height="28dp"
+            android:src="@drawable/share"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="@dimen/camera_icon_size_width"
+            android:layout_height="@dimen/camera_icon_size_height"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/photo"
+            android:layout_alignTop="@+id/video"
+            android:layout_alignEnd="@+id/desc" />
+
+        <ImageView
+            android:id="@+id/video"
+            android:layout_width="@dimen/camera_icon_size_width"
+            android:layout_height="@dimen/camera_icon_size_height"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:src="@drawable/video"/>
+    </LinearLayout>
+
+    
+    <!--<ImageView-->
+        <!--android:id="@+id/image_abuse"-->
+        <!--android:layout_width="30dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:scaleType="centerInside"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="@dimen/margin_5"-->
+        <!--android:layout_toLeftOf="@+id/report_abuse"-->
+        <!--android:layout_marginRight="@dimen/margin_10"-->
+        <!--android:src="@drawable/abuse"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/report_abuse"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/report_abuse"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:textSize="11sp"-->
+        <!--android:textColor="@color/selected_text_color"-->
+        <!--android:layout_marginBottom="@dimen/margin_10"-->
+        <!--android:layout_marginRight="@dimen/margin_10"/>-->
+
+    <RelativeLayout
+        android:id="@+id/relative_abuse"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/image_abuse"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="centerInside"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_5"
+            android:layout_toLeftOf="@+id/report_abuse"
+            android:layout_marginRight="@dimen/margin_10"
+            android:src="@drawable/abuse"/>
+
+        <TextView
+            android:id="@+id/report_abuse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/report_abuse"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="11sp"
+            android:textColor="@color/selected_text_color"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"/>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

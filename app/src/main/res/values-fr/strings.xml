@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">MrSafer</string>
+
+    <!-- Welcome Screen String Refrences -->
+
+    <string name="together_safer">ENSEMBLE\, EN SECURITE</string>
+    <string name="facebook_login">S\'inscrire avec Facebook</string>
+    <string name="twitter_login">S\'inscrire avec Twitter</string>
+    <string name="login_aggrement">En continuant, vous acceptez nos conditions d\'utilisation et notre politique de confidentialité</string>
+    <string name="dialog_title">Utilisez Connexion Internet</string>
+    <string name="dialog_message">L\'utilisation d\'Internet ConnectionIt semble que vous n\'êtes pas connecté à Internet.Please connecter votre application à Internet .</string>
+    <string name="setting_dialog_title">Utilisez les services de localisation</string>
+    <string name="setting_dialog_message">Mr. SAFER souhaite accéder à votre emplacement.</string>
+    <string name="image_picker_title">Choisissez une image à partir </string>
+    <string name="video_picker_title">Choisissez la vidéo de </string>
+    <string name="report_in_your_area">Alertes émises dans votre zone</string>
+
+    <!-- Landing Screen String Refrences -->
+    <string name="tab_position_title">POSITION</string>
+    <string name="tab_alert_title">SIGNALER</string>
+    <string name="tab_reports_title">ALERTES</string>
+    <string name="tab_actus_title">INFOS</string>
+
+    <!-- TODO:Capture Incident Screen -->
+    <string name="report_id_type">Signaler une ALTERCATION</string>
+    <string name="send">Envoyer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Carte</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">L\'accès au service de localisation est nécessaire pour démontrer la fonctionnalité \' emplacement de mon \' , qui indique votre position actuelle sur la carte .</string>
+    <string name="location_permission_denied">Cet exemple nécessite l\'autorisation de l\'emplacement pour activer la couche \' ma position \' . S\'il vous plaît essayer à nouveau et accorder l\'accès à utiliser l\'emplacement \ nSi l\'autorisation a été refusée en permanence, il peut être activé à partir des paramètres système &gt; . Applications &gt; \' Google Maps API Demos \' .</string>
+    <string name="permission_required_toast">Lieu autorisation est requise pour cette démo .</string>
+
+    <!-- TODO:FETCH INTENT ADDRESS -->
+    <string name="no_geocoder_available">Non disponible géocodeur</string>
+    <string name="fetch_address">Fetch adresse</string>
+    <string name="address_found">Adresse trouvée</string>
+    <string name="no_address_found">Désolé , aucune adresse trouvée</string>
+    <string name="no_location_data_provided">Pas de données de localisation fournies</string>
+    <string name="service_not_available">Désolé , le service ne sont pas disponibles</string>
+    <string name="invalid_lat_long_used">latitude non valide ou la longitude utilisée</string>
+
+    <string name="error_field_required">20 caractères minimum</string>
+
+    <!-- TODO:ALERT SCREEN -->
+    <string name="confirmation_title">URGENCE</string>
+    <string name="confirmation_police">Confirmer l\'appel à la police ?</string>
+    <string name="confirmation_fire_department">Confirmer l\&apos;appel aux pompiers ?</string>
+    <string name="confirmation_ambulance">Confirmer l\&apos;appel au SAMU?</string>
+    <string name="permission_phone">l\'autorisation d\'appel sont requises pour cette application .</string>
+
+    <!-- TODO:INCIDENT NAME -->
+    <string name="altercation">ALTERCATION</string>
+    <string name="offence">DÉLIT </string>
+    <string name="harassment">HARCÈLEMENT</string>
+    <string name="doubt">DOUTE</string>
+    <string name="incident">INCIDENT</string>
+    <string name="others">AUTRE</string>
+    <string name="occurance">EVÈNEMENT</string>
+    <!--Fragment Alerts String-->
+    <string name="raise_alert">LANCER UNE ALERTE</string>
+    <string name="ambulance">SAMU</string>
+    <string name="fire_department">POMPIERS</string>
+    <string name="police">POLICE</string>
+    <!--Fragment capture Incedent Strings-->
+    <string name="victim">VICTIME</string>
+    <string name="witness">TÉMOIN</string>
+    <string name="provide_clearification">Apporter des précisions</string>
+    <string name="character_remaining">carctères restants</string>
+    <!--Fragment Detail Strings-->
+    <string name="report_by_victim">ALERTE D’UNE VICTIME </string>
+    <string name="report_by_witness">ALERTE D’UN TÉMOIN </string>
+    <string name="degration">Degration</string>
+
+    <string name="sexual_touching">Attouchement</string>
+
+
+    <string name="argument">DISPUTE</string>
+    <string name="fight">BAGARRE</string>
+    <string name="weapons">ARMES</string>
+    <string name="degradation">DÉGRADATION</string>
+    <string name="theft">VOL</string>
+    <string name="burglary">CAMBRIOLAGE</string>
+    <string name="verbel_abuse">INJURES</string>
+    <string name="fondling">ATTOUCHEMENT</string>
+    <string name="rape">VIOL</string>
+    <string name="suspicious">SUSPECT</string>
+    <string name="shady">LOUCHE</string>
+    <string name="missing">DISPARITION</string>
+    <string name="malaise">MALAISE</string>
+    <string name="accident">ACCIDENT</string>
+    <string name="fire">INCENDIE</string>
+
+
+    <string name="report_an_altercation">SIGNALER UNE ALTERCATION </string>
+    <string name="report_an_offence">SIGNALER UN DÉLIT</string>
+    <string name="report_an_harashment">SIGNALER UN HARCÈLEMENT</string>
+    <string name="report_an_doubt">SIGNALER UN DOUTE</string>
+    <string name="report_an_incident">SIGNALER UN INCIDENT</string>
+    <string name="report_an_occurrence">SIGNALER UN ÉVÉNEMENT</string>
+
+
+    <string name="report_an_situation">SIGNALER UN SITUATION</string>
+
+    <string name="miles_from_here">miles d\'ici</string>
+    <string name="kms_from_here">kms d\'ici</string>
+
+    <string name="ok">Ok</string>
+
+    <string name="agree">OUI</string>
+    <string name="disagree">NON</string>
+
+    <string name="error">ERREUR</string>
+    <string name="camera_denied">Impossible d\'accéder aux fonctions de l\'appareil photo</string>
+    <string name="message">MESSAGE</string>
+    <string name="data_successful">Les données ont été publiées avec succès.</string>
+
+    <string name="report_abuse">Signaler un abus</string>
+    <string name="email_subject">Abus signalé</string>
+    <string name="raise_an_alert">SIGNALER UNE ALERTE</string>
+    <string name="required_permission">Accédez aux paramètres et activer les autorisations</string>
+    <string name="read_write">Caméra et autorisation d\'écriture de stockage lu externe sont nécessaires pour l\'application</string>
+    <string name="report_abuse_message">Un message a été envoyé à l\'administrateur.</string>
+    <string name="choose_betwwen_three_icon">Choisissez entre les 3 icônes</string>
+
+    <!--TODO:Fragement Actus-->
+    <string name="actus_title">FIL D\&apos;ACTUALITÉ</string>
+
+</resources>

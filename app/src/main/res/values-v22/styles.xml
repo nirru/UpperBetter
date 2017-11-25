@@ -1,0 +1,165 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+        <item name="colorAccent">@android:color/darker_gray</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">@android:color/darker_gray</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+    </style>
+
+    <style name="PikerDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+        <item name="colorAccent">@android:color/darker_gray</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">@android:color/darker_gray</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@drawable/image_picker_dialog_</item>
+    </style>
+
+    <style name="TabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#112f56</item>
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabPaddingStart">8dp</item>
+        <item name="tabPaddingEnd">8dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/TabTextAppearance</item>
+        <item name="tabSelectedTextColor">#112f56</item>
+    </style>
+
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#8291a3</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="FacebookButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="backgroundTint">@color/facebook_color</item>
+        <item name="android:colorButtonNormal">@color/facebook_color</item>
+        <item name="android:textColor">@color/white_color</item>
+    </style>
+
+    <style name="TwitterButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="backgroundTint">@color/twitter_color</item>
+        <item name="android:colorButtonNormal">@color/twitter_color</item>
+        <item name="android:textColor">@color/white_color</item>
+    </style>
+
+    <style name="SendButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="backgroundTint">@color/send_btn_color</item>
+        <item name="android:colorButtonNormal">@color/send_btn_color</item>
+        <item name="android:textColor">@color/white_color</item>
+    </style>
+
+    <style name="CodeFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="CodeFont.Blue">
+        <item name="android:textColor">#112f56</item>
+    </style>
+
+    <style name="CodeFont.Blue.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="CodeFont.Blue.Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="CodeFont.Blue.Big">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="CodeFont.White">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="CodeFont.White.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CodeFont.White.Medium">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="CodeFont.White.Big">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="CodeFont.LightGray">
+        <item name="android:textColor">#8291a3</item>
+    </style>
+
+    <style name="CodeFont.LightGray.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CodeFont.text_unselected">
+        <item name="android:textColor">#9d9d9f</item>
+    </style>
+
+    <style name="CodeFont.text_unselected.small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CodeFont.text_unselected.Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="CodeFont.text_unselected.Big">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="CodeFont.Clarification_color">
+        <item name="android:textColor">#989b9e</item>
+    </style>
+
+    <style name="CodeFont.Clarification_color.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CodeFont.Clarification_color.Medium">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="CodeFont.Clarification_color.Big">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="counterText">
+        <item name="android:textColor">#aa5353cc</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="counterOverride">
+        <item name="android:textColor">#ff0000</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+</resources>

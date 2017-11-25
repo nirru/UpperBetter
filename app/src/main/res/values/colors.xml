@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e7e7e7</color>
+    <color name="colorPrimaryDark">#c8e7e7e7</color>
+    <color name="colorAccent">#c7c7c7</color>
+    <color name="colorBackground">#e7e7e7</color>
+
+    <color name="facebook_color">#3b5998</color>
+    <color name="twitter_color">#33ccff</color>
+    <color name="white_color">#ffffff</color>
+    <color name="gray_light">#8291a3</color>
+    <color name="indigo">#4b0082</color>
+    <color name="pink">#FF69B4</color>
+
+    <color name="send_btn_color">#112f56</color>
+    <color name="selected_text_color">#112f56</color>
+    <color name="unselected_text_color">#8291a3</color>
+    <color name="snackbar_background">#262626</color>
+    <color name="snackbar_right_btn_color">#ECFF00</color>
+
+    <color name="detail_backgroud_color">#CACBD0</color>
+</resources>

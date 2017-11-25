@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:id="@+id/parent_row">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="03 hrs 10 min ago"
+            android:textSize="11sp"
+            android:singleLine="true"
+            android:gravity="right"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/selected_text_color"/>
+
+        <TextView
+            android:id="@+id/seperator"
+            android:layout_toLeftOf="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:text="--"/>
+
+        <TextView
+            android:id="@+id/miles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/seperator"
+            android:text="0.50 miles"
+            android:textSize="11sp"
+            android:singleLine="true"
+            android:gravity="right"
+            android:layout_marginRight="2dp"
+            android:textColor="@color/selected_text_color"/>
+
+        <ImageView
+            android:id="@+id/cameraicon"
+            android:layout_width="27dp"
+            android:layout_height="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/photo"
+            android:adjustViewBounds="true"
+            android:layout_alignStart="@+id/time"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/time"
+            android:visibility="visible"/>
+
+        <ImageView
+            android:id="@+id/videoAlter"
+            android:layout_width="27dp"
+            android:layout_height="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/video"
+            android:adjustViewBounds="true"
+            android:layout_alignStart="@+id/time"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/time"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/videoicon"
+            android:layout_width="27dp"
+            android:layout_height="20dp"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/miles"
+            android:layout_marginTop="15dp"
+            android:layout_alignEnd="@+id/miles"
+            android:src="@drawable/video"
+            android:adjustViewBounds="true"
+            android:visibility="visible"/>
+
+        <ImageView
+            android:id="@+id/event_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/harassment"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/event_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/event_image"
+            android:textColor="@color/selected_text_color"
+            android:text="HARASSMENT"
+            android:textSize="10sp"
+            android:singleLine="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"/>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#a8b2be"/>
+</RelativeLayout>
